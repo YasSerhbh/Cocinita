@@ -82,6 +82,7 @@ export const MovingBorder = ({
   ry?: string;
   [key: string]: any;
 }) => {
+    // @ts-expect-error madakhelch rohek
   const pathRef = useRef<any>();
   const progress = useMotionValue<number>(0);
 
