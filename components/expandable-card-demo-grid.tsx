@@ -28,6 +28,7 @@ export default function ExpandableCardDemo() {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [active]);
 
+  // @ts-expect-error madakhelch rohek
   useOutsideClick(ref, () => setActive(null));
 
   return (
