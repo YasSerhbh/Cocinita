@@ -12,6 +12,8 @@
 
 # testing
 /coverage
+preparation.txt
+preparationFolder/
 
 # next.js
 /.next/
